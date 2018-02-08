@@ -1,4 +1,4 @@
-# Лабораторная работа №1
+# Лабораторная работа №2
 from math import cosh, log
 
 x = float(input('Enter x:'))
@@ -21,5 +21,3 @@ if (j > -710.000001) and (j < 710.000001):
      print('F={}'. format(f))
 else:
      print('Значение cosh не может быть вычислено')
-
-
