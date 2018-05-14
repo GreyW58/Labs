@@ -2,13 +2,12 @@
 
 from math import cosh, log
 
-class In(object):
 
-    in_f = open('in.txt')
-    value = [line.strip() for line in in_f.readlines()]
+in_f = open('in.txt')
+value = [line.strip() for line in in_f.readlines()]
 
-x = float(In.value[0])
-a = float(In.value[1])
+x = float(value[0])
+a = float(value[1])
 
 
 while ((3 * a ** 2 - 25 * a * x + 8 * x ** 2 + 1) / log(10)) < 0:
